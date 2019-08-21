@@ -5,20 +5,15 @@ This is a semi-automated process to deploy S/4HANA in a highly available manner.
 ## What is this about?
 This is a “Semi-Automation” method of S/4HANA deployment. Why do we call it Semi-Automation? Because, this is a combination of ARM templates and linux commands to help build the system.  You can deploy the following two most common and complex scenarios using this method:
 
-| High availability using pacemaker with NFS	| High availability using pacemaker with Azure NetApp File (ANF) |
-| --- | --- |
-| •	S/4HANA 1809 <br />
-•	SAP HANA 2 SPS04 <br />
-•	SuSE 12 SP3 for SAP <br />
-•	ASCS – Pacemaker cluster <br />
-•	HANA – HSR with pacemaker cluster <br />
-•	NFS - Pacemaker cluster	•	S/4HANA 1809
-•	SAP H
-| ANA 2 SPS04  <br />
-•	SuSE 12 SP3 for SAP  <br />
-•	ASCS – Pacemaker cluster  <br />
-•	HANA – HSR with pacemaker cluster  <br />
-•	File systems – ANF (Azure Netapp Files) |
+| Component | High availability using pacemaker with NFS	| High availability using pacemaker with Azure NetApp File (ANF) |
+| --- | --- | --- |
+| SAP Application Version | S/4HANA 1809 | S/4HANA 1809 |
+| HANA DB Version | SAP HANA 2 SPS04 | SAP HANA 2 SPS04 |
+| Operating System Version | SuSE 12 SP3 for SAP | SuSE 12 SP3 for SAP |
+| High Availability for ASCS | ASCS – Pacemaker cluster | ASCS – Pacemaker cluster |
+| High Availabulity for DB | HANA – HSR with pacemaker cluster | HANA – HSR with pacemaker cluster |
+| Shared file system | NFS - Pacemaker cluster	| ANF (Azure Netapp Files) |
+
 
 ## Why do I use this method?
 When you want to build and configure highly available S/4HANA system with deep understanding of each layer like infrastructure, clustering, SAP Application, HANA, Replication etc. - You use this method!
