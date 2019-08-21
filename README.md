@@ -23,25 +23,28 @@ By following a comprehensive document with screen shots, you learn it by doing e
 After you complete manual installation, you are good to use automation approach for a quick and repeatable deployment. 
 
 Here are some **benefits** for you:
-•	Gain hands-on experience 
-•	Deploy and configure complex SAP HA setup with confidence
-•	Create a demo or a reference environment for your CoE
-•	Exercise your HA test scenarios
+
+- Gain hands-on experience 
+- Deploy and configure complex SAP HA setup with confidence
+- Create a demo or a reference environment for your CoE
+- Exercise your HA test scenarios
 
 ## How do it do it?
 You download the package from https://github.com/saghorpa/saponazure. The package consists of the following files:
-•	ARM templates (JSON files)
-•	ANF- An end to end comprehensive guide for S/4HANA HA deployment using ANF (pdf file)
-•	NFS- An end to end comprehensive guide for S/4HANA HA deployment using NFS (pdf file)
+
+- ARM templates (JSON files)
+- ANF- An end to end comprehensive guide for S/4HANA HA deployment using ANF (pdf file)
+- NFS- An end to end comprehensive guide for S/4HANA HA deployment using NFS (pdf file)
 
 Based on the scenario you want to test out, you start with the respective deployment guide (NFS or ANF). These guides enable you to perform end to end deployment. These are the comprehensive guides (110+ pages each) with screen shots, and common problems with their resolution.
 
 The procedure has been tested by Microsoft internal SAP on Azure team, and by the several of our partners.
 
 Here are the **pre-requisites** before you begin:
-•	Azure subscription 
-•	SAP S/4HANA 1809 bits downloaded
-•	SAP HANA 2 SPS04 bits downloaded
-•	SAP Basis, Linux, and Azure infra knowledge
-•	About 2-3 days of time to install and configure each scenario
-•	S/4HANA and HANA licenses (optional)
+
+- Azure subscription 
+- SAP S/4HANA 1809 bits downloaded
+- SAP HANA 2 SPS04 bits downloaded
+- SAP Basis, Linux, and Azure infra knowledge
+- About 2-3 days of time to install and configure each scenario
+- S/4HANA and HANA licenses (optional)
